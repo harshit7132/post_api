@@ -8,7 +8,7 @@ class ApiRoute implements Route {
   @override
   void register() {
     /// Base RoutePrefix
-    Router.basePrefix('api');
+    Router.basePrefix('api');    
 
     Router.get("/home", homeController.index);
 
